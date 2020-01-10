@@ -1,12 +1,26 @@
+/*
+    Default browser level css
+*/
+body{
+    padding: 0;
+    margin: 0;
+}
+/*
+    App Level css 
+*/
 .app_container{
     width:100%;
-    height:100vh;
+    height:97vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .appheader_default{
-    height: 6vh;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
 }
 
 .appcontent_default{
