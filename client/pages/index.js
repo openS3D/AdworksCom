@@ -1,10 +1,13 @@
-import react from 'react';
+import React from 'react';
 import App from '../components/App';
-
-const HomePage=() =>{
-    return <App />;
+import Layout from '../hoc/layout/layout';
+const Index=() =>{
+    return (
+    <Layout>
+        <App />
+    </Layout>);
   }
 
 
   
-export default HomePage
+export default Index;

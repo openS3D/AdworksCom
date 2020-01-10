@@ -1,0 +1,19 @@
+.app_container{
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.appheader_default{
+    height: 6vh;
+}
+
+.appcontent_default{
+    height: 89vh;
+    overflow-y: scroll;
+}
+
+.appfooter_default{
+    height: 4vh;
+}
