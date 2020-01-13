@@ -6,6 +6,7 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
+import "./Offerings.css";
 {/*
     Show Static offerings
 */}
@@ -55,7 +56,7 @@ const Offerings = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} style={{width:"100%",maxHeight:"60vh"}}/>
+        <img src={item.src} alt={item.altText} className="offerings_displayimage"/>
         <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>
     );
