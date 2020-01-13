@@ -1,10 +1,10 @@
 import React from 'react';
-import App from '../components/App';
+import Overview from '../components/Overview/Overview';
 import Layout from '../hoc/layout/layout';
 const Index=() =>{
     return (
     <Layout>
-        <App />
+        <Overview />
     </Layout>);
   }
 
