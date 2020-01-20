@@ -4,7 +4,17 @@
     background-color: #333;
     overflow: hidden;
   }
-  
+/* topnav logo*/
+.topnav_logo{
+  width: 21px;
+  position: absolute;
+  left: 3px;
+  top: 15px;
+}
+.topnav_banner{
+  min-width: 161px;
+  padding-right:10px;
+}
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
@@ -50,6 +60,9 @@
     .topnav.responsive {
       position: relative;
       z-index: 3;
+    }
+    .topnav_banner{
+      padding-left: 25px !important;
     }
     .topnav.responsive a.topnav_icon {
       position: absolute;

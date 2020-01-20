@@ -15,10 +15,10 @@ const toggleResponsiveMenu=()=> {
 const Header = () => {
     return(
         <nav className="topnav" id="topnav_element">
-            <a href="#home" class="active">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+            <a href="#home"  className="active topnav_banner"><img src="/images/logo/logo.jpg" className="topnav_logo" alt="AdWorksCom"/>AdWorksCom</a>
+            <a href="#createad">Create Ad</a>
+            <a href="#contactus">Contact Us</a>
+            <a href="#login">Log In</a>
             <a href="javascript:void(0);" className="topnav_icon" onClick={toggleResponsiveMenu}>
                 <div class="topnav_togglemenu" id="topnav_togglemenu">
                     <div class="bar1"></div>
