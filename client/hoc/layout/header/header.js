@@ -20,10 +20,10 @@ const Header = () => {
             <a href="#contactus">Contact Us</a>
             <a href="#login">Log In</a>
             <a href="javascript:void(0);" className="topnav_icon" onClick={toggleResponsiveMenu}>
-                <div class="topnav_togglemenu" id="topnav_togglemenu">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
+                <div className="topnav_togglemenu" id="topnav_togglemenu">
+                    <div className="bar1"></div>
+                    <div className="bar2"></div>
+                    <div className="bar3"></div>
                 </div>
             </a>
         </nav>
