@@ -12,13 +12,13 @@ import "./Offerings.css";
 */}
 const offerings = [
   {
-    src: '/images/overview/offerings/ad_step_1.jpg',
+    src: '/images/overview/offerings/ad_step_1.png',
   },
   {
-    src: '/images/overview/offerings/ad_step_2.jpg',
+    src: '/images/overview/offerings/ad_step_2.png',
   },
   {
-    src: '/images/overview/offerings/ad_step_3.jpg',
+    src: '/images/overview/offerings/ad_step_3.png',
   }
 ];
 
