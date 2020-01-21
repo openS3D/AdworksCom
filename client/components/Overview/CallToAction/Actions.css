@@ -15,7 +15,7 @@
     content: '';
     /*background-color: rgba(247, 164, 11, 0.4);*/
     background: url('/images/overview/actions/action_offerings.jpg');
-    opacity: 0.6;
+    /*opacity: 0.6;*/
     width: 100%;
     min-height: 35vh;
 }
